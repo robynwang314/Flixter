@@ -55,6 +55,10 @@ h1, h2, h3, h4, h5, h6, .navbar {
   padding-right: 5%;
 }
 
+.feature h3 {
+  font-family: 'Anton', sans-serif;
+}
+
 body {
   background: image_url('bg.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
