@@ -1,0 +1,19 @@
+<div class="col-10 offset-1"> 
+  <br /><br />
+  <div class="user-authentication-headers">
+    <center>
+      <h2>Add A New Course</h2>
+    </center>
+
+    <br />
+
+    <%= simple_form_for @course, url: instructor_courses_path do |f| %>
+      <%= f.input :title %>
+      <%= f.input :description %>
+      <%= f.input :cost %>
+      <br />
+      <%= f.submit "Create", class: 'btn btn-outline-primary' %>
+      <br />
+    <% end %>
+    <br/>
+  </div>
