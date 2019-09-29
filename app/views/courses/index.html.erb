@@ -6,7 +6,9 @@
 
     <br />
     <% @courses.each do |course| %>
-      <h4 class="text-center"><%= course.title %></h4>
+      <h4 class="text-center">
+        <%= link_to course.title, course_path(course) %>
+       </h4>
       <br />
 
       <div class="row">
@@ -14,7 +16,7 @@
           <%= course.description %>
         </div>
         <div class="col-sm-4 col-12 text-center">
-          <%= link_to 'Button', '#', class: 'btn btn-outline-primary' %>
+          <%= link_to 'More Details...', course_path(course), class: 'btn btn-outline-primary btn-large' %>
         </div>
       </div>
       <br class="clr" />
