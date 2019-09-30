@@ -4,7 +4,7 @@
       <h2 class="text-center">Add A New Section</h2>
       <hr />
     <br />
-      <%= simple_form_for @section, url: instructor_course_sections_path(@course) do |f| %>
+      <%= simple_form_for @section, url: instructor_course_sections_path(current_course) do |f| %>
         <%= f.input :title %>
         <br />
         <%= f.submit "Add a Section", class: 'btn btn-outline-primary' %>
