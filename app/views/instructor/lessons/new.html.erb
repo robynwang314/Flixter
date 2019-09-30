@@ -1,0 +1,15 @@
+<div class="col-10 offset-1"> 
+  <br /><br />
+  <div class="user-authentication-headers">
+      <h2 class="text-center">
+        <%= simple_form_for @lesson, url: instructor_section_lessons_path(@section) do |f| %>
+          <%= f.input :title %>
+          <%= f.input :subtitle %>
+          <br />
+          <%= f.submit "Add The Lesson", class: 'btn btn-outline-primary' %>
+        <% end %>
+      </h2>
+      <hr />
+  </div>
+  <br />
+</div>
