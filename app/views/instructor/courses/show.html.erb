@@ -4,7 +4,21 @@
       <h2 class="text-center"><%= @course.title %></h2>
       <hr />
   <br />
-    <h4 class="text-center"><%= @course.description %></h4>
-    <h4 class="text-center"><%= @course.cost %></h4>
+
+    <%= link_to 'Preview As Student...', course_path(@course), class: 'btn btn-outline-danger float-right' %>
+    <br class="clr" />
+
+    <div class="text-center">
+      <%= link_to 'Add a new section...', new_instructor_course_section_path(@course), class: 'btn btn-outline-primary btn-md' %>
+    </div>
   </div>
+
+  <ul>
+    <% @course.sections.each do |section| %>
+      <li>
+        <%= section.title %>
+      </li>
+    <% end %>
+  </ul>
+  
 </div>
