@@ -13,8 +13,13 @@ body {
 }
 
 #footer {
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  width: 100%;
+  min-height: 50px;
+  background-color: rgba(244, 242, 240, 0.5);
+  font-family: "Helvetica Neue", Helvetica;
+  padding: 10px 0px;
+  margin-top: 30px;
 }
 
 #footer a{
