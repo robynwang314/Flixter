@@ -1,8 +1,9 @@
 <div class="col-10 offset-1"> 
   <br /><br />
   <div class="user-authentication-headers">
-      <h2 class="text-center"><%= current_course.title %></h2>
+      <h1 class="text-center"><%= current_course.title %>
       <hr />
+      <%= image_tag current_course.image.to_s, class: 'img-fluid' %><h2>
   <br />
 
     <%= link_to 'Preview As Student...', course_path(current_course), class: 'btn btn-outline-danger float-right' %>

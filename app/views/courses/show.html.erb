@@ -1,9 +1,10 @@
 <div class="col-10 offset-1"> 
   <br /><br />
   <div class="user-authentication-headers">
-    <h1 class="text-center"><%= @course.title %></h1>
+    <h1 class="text-center"><%= @course.title %>
     <hr />
-    <br />
+    <%= image_tag @course.image.to_s, class: 'img-fluid' %></h1>
+    <br /><br />
 
   <div class="row">
     <div class="col-sm-4 col-12 text-center">

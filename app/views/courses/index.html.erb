@@ -19,6 +19,11 @@
           <%= link_to 'More Details...', course_path(course), class: 'btn btn-outline-primary btn-large' %>
         </div>
       </div>
+
+        <center>
+          <%= image_tag course.image.to_s, class: 'img-fluid' %>
+        </center>
+
       <br class="clr" />
     <% end %>
   </div>
