@@ -1,0 +1,45 @@
+<div class="col-10 offset-1"> 
+  <br /><br />
+  <div class="user-authentication-headers">
+      <h2 class="text-center">My Dashboard</h2>
+      <hr />
+    <br />
+  </div>
+
+  <h3>What I'm Learning</h3><br />
+  <% current_user.enrolled_courses.each do |course| %>
+    <h5 class="text-center"><%= link_to course.title, course_path(course) %></h5>
+    <br />
+     <%= image_tag course.image.to_s, class: 'img-fluid' %>
+    <br />
+     <div class="row">
+      <div class="col-12 col-sm-8">
+        <%= course.description %>
+      </div>
+      <div class="col-12 col-sm-4 text-center">
+        <%= link_to "More Info...", course_path(course), class: 'btn btn-outline-primary' %>
+      </div>
+    </div>
+    <hr class="col-8 offset-2">
+    <br class="clr" />
+  <% end %>
+
+
+  <h3>What I'm Teaching</h3>
+  <% current_user.courses.each do |course| %>
+    <h5 class="text-center"><%= link_to course.title, course_path(course) %></h5>
+    <br />
+    <%= image_tag course.image.to_s, class: 'img-fluid' %>
+    <br />
+    <div class="row">
+      <div class="col-12 col-sm-8">
+        <%= course.description %>
+      </div>
+      <div class="col-12 col-sm-4 text-center">
+          <%= link_to "More Info...", course_path(course), class: 'btn btn-outline-primary' %>
+      </div>
+    </div>
+    <hr class="col-8 offset-2">
+    <br class="clr" />
+  <% end %>
+</div>
