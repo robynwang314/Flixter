@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Flixter - Two-Sided Marketplace
 
-Things you may want to cover:
+A two-sided, video-streaming marketplace platform that features credit card payment capabilities, user role management, complex user interfaces, and advanced database relationships.
 
-* Ruby version
+<img src="/app/assets/images/home.png" alt="Homepage">
 
-* System dependencies
+Instructors dashboard: 
+<img src="/app/assets/images/dashboard.png" alt="Instructors Dashboard">
+<img src="/app/assets/images/contribute.png" alt="Contribute Lesson">
+<img src="/app/assets/images/administer.png" alt="Administer Lesson">
 
-* Configuration
+Student View: 
 
-* Database creation
+<img src="/app/assets/images/lessons.png" alt="Lessons View">
+<img src="/app/assets/images/course.png" alt="Course View">
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Link: https://flixter-robyn-wang.herokuapp.com/
+Github: https://github.com/robynwang314/flixter
