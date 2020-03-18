@@ -92,3 +92,5 @@ gem 'jquery-ui-rails'
 
 gem "font-awesome-rails"
 
+gem 'mini_racer'
+
