@@ -7,7 +7,7 @@ Tools & Languages: Ruby/Rails, PostgresSQL, Javascript, HTML/CSS
 ## Table of Contents ##
 
 <ul> 
-  <li><a href="#about"> About </li>
+  <li><a href="#about"> About </a></li>
   <li id="#technologies"> Built With </li>
   <li id="#setup"> Setup </li>
   <li id="#usage"> Usage </li>
