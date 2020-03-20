@@ -1,10 +1,23 @@
-# README
-
 # Flixter - Two-Sided Marketplace #
 
+A two-sided, video-streaming marketplace platform that features credit card payment capabilities, user role management, complex user interfaces, and advanced database relationships. 
+<br/>
+Tools & Languages: Ruby/Rails, PostgresSQL, Javascript, HTML/CSS
 
+## Table of Contents ##
 
-A two-sided, video-streaming marketplace platform that features credit card payment capabilities, user role management, complex user interfaces, and advanced database relationships.
+<ul> 
+  <li href="#about"> About </li>
+  <li id="#technologies"> Built With </li>
+  <li id="#setup"> Setup </li>
+  <li id="#usage"> Usage </li>
+  <li id="#contact"> Contact </li>
+</ul>
+
+<a id="about"></a> 
+## About ##
+
+This Udemy 
 
 <img src="/app/assets/images/home.png" alt="Homepage">
 
