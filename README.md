@@ -36,25 +36,24 @@ Flixter integrates the following:
 
 ## Getting Started ##
 <b> Set Up </b>
-In your coding environment, create a new application using PostgreSQL:
-  <code> $ rails new flixter --database=postgresql </code>
+<p>In your coding environment, create a new application using PostgreSQL:</p>
+<pre><code> $ rails new flixter --database=postgresql </code></pre>
 
-Once the application is created, enter into your "flixter" text editor and edit your database.yml file accordingly.
+<p>Once the application is created, enter into your "flixter" text editor and edit your database.yml file accordingly.</p>
 
-Then change directory into your flixter project and create the initial database and start the server
-  <code> $ rake db:create</code>
+<p>Then change directory into your flixter project and create the initial database and start the server</p>
+<pre><code> $ rake db:create</code></pre>
 
-In a separate terminal window, enter into your Flixter folder and set up the web development pipeline
-  <code> 
-    create new Github repository
-    create project in heroku and then deploy it to heroku</code>
+<p>In a separate terminal window, enter into your Flixter folder and set up the web development pipeline</p>
+<pre><code> "create new Github repository
+  create project in heroku and then deploy it to heroku"</code></pre>
 
-<b>Allowing Course Creation</b>
-Create a database for course by generating a model for courses 
-<code>$ rails generate model course</code>
+<p>Allowing Course Creation <br/>
+Create a database for course by generating a model for courses </p>
+<pre><code>$ rails generate model course</code></pre>
 
-Then edit the migration file (db/migrate/XXXX_create_courseses.rb) to look like this 
-<code>def change
+<p>Then edit the migration file (db/migrate/XXXX_create_courseses.rb) to look like this</p> 
+<pre><code>"def change
   create_table :courses do |t|
     t.string :title
     t.text :description
@@ -63,20 +62,20 @@ Then edit the migration file (db/migrate/XXXX_create_courseses.rb) to look like 
     t.timestamps
   end
   add_index :courses, :user_id
-end</code>
+end"</code></pre>
 
-Run the migration in the terminal 
-<code> $ rake db:migrate</code>
+<p>Run the migration in the terminal</p>
+<pre><code> $ rake db:migrate</code></pre>
 
-Then set up the appropriate associations between users and courses.
+<p>Then set up the appropriate associations between users and courses.<br/>
 
-After, generate a new controller for the instructor dashboard using namespaces.
-<code> $ rails generate controller instructor/courses</code>
+After, generate a new controller for the instructor dashboard using namespaces.</p>
+<pre><code> $ rails generate controller instructor/courses</code></pre>
 
-Connect the controller to the appropriate views and action. 
+<p>Connect the controller to the appropriate views and action. <br/>
 
-To ensure user authentication, add a before_action in the controller. (requires the Devise gem)
-<code> before_action :authenticate_user!</code>
+To ensure user authentication, add a before_action in the controller. (requires the Devise gem)</p>
+<pre><code> before_action :authenticate_user!</code></pre>
 
 <div id="usage"></div> 
 
