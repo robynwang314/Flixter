@@ -1,7 +1,7 @@
 # Flixter - Two-Sided Marketplace #
 
 A two-sided, video-streaming marketplace platform that features credit card payment capabilities, user role management, complex user interfaces, and advanced database relationships. 
-<br/>
+<br/><br/>
 <b>Tools & Languages:</b> Ruby/Rails, PostgresSQL, Javascript, HTML/CSS
 
 ## Table of Contents ##
