@@ -2,7 +2,7 @@
 
 A two-sided, video-streaming marketplace platform that features credit card payment capabilities, user role management, complex user interfaces, and advanced database relationships. 
 <br/>
-Tools & Languages: Ruby/Rails, PostgresSQL, Javascript, HTML/CSS
+<b>Tools & Languages:</b> Ruby/Rails, PostgresSQL, Javascript, HTML/CSS
 
 ## Table of Contents ##
 <ul> 
