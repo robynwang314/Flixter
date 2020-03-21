@@ -45,15 +45,15 @@ Flixter integrates the following:
 <pre><code> $ rake db:create</code></pre>
 
 <p>In a separate terminal window, enter into your Flixter folder and set up the web development pipeline</p>
-<pre><code> "create new Github repository
-  create project in heroku and then deploy it to heroku"</code></pre>
+<pre><code>create new Github repository
+  create project in heroku and then deploy it to heroku</code></pre>
 
 <p>Allowing Course Creation <br/>
 Create a database for course by generating a model for courses </p>
 <pre><code>$ rails generate model course</code></pre>
 
 <p>Then edit the migration file (db/migrate/XXXX_create_courseses.rb) to look like this</p> 
-<pre><code>"def change
+<pre><code>def change
   create_table :courses do |t|
     t.string :title
     t.text :description
@@ -62,7 +62,7 @@ Create a database for course by generating a model for courses </p>
     t.timestamps
   end
   add_index :courses, :user_id
-end"</code></pre>
+end</code></pre>
 
 <p>Run the migration in the terminal</p>
 <pre><code> $ rake db:migrate</code></pre>
@@ -86,15 +86,15 @@ And it's code can be found at: https://github.com/robynwang314/flixter
 
 ### Screenshots ###
 
-<b>Landing Page:</b>
-<img src="/app/assets/images/home.png" alt="Homepage" width="50%">
+<b>Landing Page:</b> <br/>
+<img src="/app/assets/images/home.png" alt="Homepage" width="45%">
 
-<b>Instructors dashboard:</b>
-<img src="/app/assets/images/dashboard.png" alt="Instructors Dashboard" width="50%">
-<img src="/app/assets/images/contribute.png" alt="Contribute Lesson" width="50%">
-<img src="/app/assets/images/administer.png" alt="Administer Lesson" width="50%">
+<b>Instructors dashboard:</b><br/>
+<img src="/app/assets/images/dashboard.png" alt="Instructors Dashboard" width="30%">
+<img src="/app/assets/images/contribute.png" alt="Contribute Lesson" width="30%">
+<img src="/app/assets/images/administer.png" alt="Administer Lesson" width="30%">
 
-<b>Student View:</b>
+<b>Student View:</b><br/>
 <img src="/app/assets/images/lessons.png" alt="Lessons View" width="50%">
 <img src="/app/assets/images/course.png" alt="Course View" width="50%">
 
