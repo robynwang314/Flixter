@@ -90,12 +90,12 @@ And it's code can be found at: https://github.com/robynwang314/flixter
 <img src="/app/assets/images/home.png" alt="Homepage" width="45%">
 
 <b>Instructors dashboard:</b><br/>
-<img src="/app/assets/images/dashboard.png" alt="Instructors Dashboard" width="45%" float="left">
+<img src="/app/assets/images/dashboard.png" alt="Instructors Dashboard" width="45%" float="left"> &nbsp;&nbsp;&nbsp;
 <img src="/app/assets/images/contribute.png" alt="Contribute Lesson" width="45%" float="right"><br/
 <img src="/app/assets/images/administer.png" alt="Administer Lesson" width="45%" float="left">
 
 <b>Student View:</b><br/>
-<img src="/app/assets/images/lessons.png" alt="Lessons View" width="45%" float="left">
+<img src="/app/assets/images/lessons.png" alt="Lessons View" width="45%" float="left"> &nbsp;&nbsp;&nbsp;
 <img src="/app/assets/images/course.png" alt="Course View" width="45%" float="right">
 
 <div id="contact"></div> 
