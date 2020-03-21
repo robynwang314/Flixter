@@ -35,7 +35,7 @@ Flixter integrates the following:
 <div id="setup"></div> 
 
 ## Getting Started ##
-<b> Set Up </b>
+### Set Up ###
 <p>In your coding environment, create a new application using PostgreSQL:</p>
 <pre><code> $ rails new flixter --database=postgresql </code></pre>
 
@@ -48,7 +48,7 @@ Flixter integrates the following:
 <pre><code>create new Github repository
   create project in heroku and then deploy it to heroku</code></pre>
 
-<p>Allowing Course Creation <br/>
+### Allowing Course Creation ###
 Create a database for course by generating a model for courses </p>
 <pre><code>$ rails generate model course</code></pre>
 
